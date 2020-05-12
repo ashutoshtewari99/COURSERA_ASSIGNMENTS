@@ -1,109 +1,305 @@
-.container-fluid{
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	
-}
-
-.navbar{
-	border-radius: 0px;
-	background-color: rgba(224, 15, 15, 0.8);
-	text-align: center;
-}
-
-.navbar-brand{
-  font-family: "Times", cursive, sans-serif;
-  font-size: 50px;
-  margin: 10px;
-  text-align: center;
-  font-weight: bold;
-  color: white;
-  padding-left: 465px;
-
-}
-
-
-.navbar-brand:hover{
-	color: white;
-}
-
-.nav{
-	margin: 0;
-	padding: 0;
-}
-
-.navbar-nav{
-  font-size: 20px;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar-toggle{
-	border: 2px solid white;
-	margin-right: 25px;
-}
-
-.icon-bar{
-	background-color: white;
-}
-
-
-.main-title{
-  margin-bottom: 15px;
-  text-align: center;
-  color: #ff4532;
-  font-size: 55px;
-  font-family: "Times", cursive, sans-serif;
-  font-weight: bold;
-}
-
-li{
+* {
 	box-sizing: border-box;
-	width: 100%;
-}
-
-.menu-item{
-	padding: 0;
-	margin: 0;
-	width: 100%;
-	background-color: white;
-	border-bottom: 1px solid black;
-	color: black;
-	display: block;
-}
-
-.menu-item:hover{
-  background-color: rgba(243, 240, 240, 0.9);
-  color: rgba(17, 2, 2, 0.4);
+  }
   
-}
-
-
-
-.row{
-	margin: 20px;
-}
-
-.content-box{
-	margin: 20px;
-	width: auto;
-  height: auto;
-  border-radius: 10px;
-	color: black;
-	background-color: rgba(82, 60, 207, 0.2);
-	font-family: "Times", cursive, sans-serif;
-	padding: 20px;
-}
-.content-box p{
+  #navigation {
+	background-color: #bfefff;
+  }
+  
+  body {
+	background-color: coral;
+	font-family: Helvetica, sans-serif;
+  }
+  
+  /** HEADER **/
+  nav {
+	position: relative;
+  }
+  .content-box p{
+	  border: 5px 0 5px solid black;
+	  text-align: center;
+	  font-size: 20px;
+	  padding: 20px;
+	  background-color: cornflowerblue;
+	  border-radius: 10px;
+  }
+  .content-box span{
+	border: 5px 0 5px solid black;
 	text-align: center;
-  font-size: 17px;
-  font-weight: bold;
+	font-size: 40px;
+	padding: 150px;
+	border-radius: 10px;
 }
-.item-name{
-	text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-}
-
+  .item-name{
+	font-family: 'Times New Roman', Times, serif;
+	padding-left: 200px;
 	
+  }
+  .item-name{
+	  font-family: 'Times New Roman', Times, serif;
+	  font-weight: bold;
+	  font-size: 20px;
+	  text-align: center;
+  }
+  .menu{
+	font-family: 'Times New Roman', Times, serif;
+	  background-color: darkgray;
+	  border: 5px solid black;
+	  text-align: center;
+	  
+  }
+  .menu h1{
+	font-family: 'Times New Roman', Times, serif;
+	  background-color: darkgray;
+	  text-align: center;
+	  font-weight: bold;
+	  
+  }
+  
+  .navbar-nav {
+	background-color: #da1010;
+	opacity: 0.5;
+	font-family: 'Times New Roman', Times, serif;
+	border: 5px 0 5px solid black;
+	border-radius: 10px;
+  }
+  .navbar navbar-expand-lg navbar-light bg-light{
+	  text-align: center;
+  }
+  
+  .navbar{
+	font-family: 'Times New Roman', Times, serif;
+	padding-left: 30%;
+	font-size: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px rgb(209, 23, 23);
+	margin-bottom: 0px;
+	margin-top: 0px;
+  }
+  
+  
+  .navbar-nav hr {
+	width: 90%;
+  }
+  
+  .navbar-nav .nav-item {
+	text-align: center;
+  }
+  
+  .navbar-nav {
+	margin-top: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+  }
+  
+  .navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+  }
+  
+  #navbarNavDropdown {
+	float: right
+  }
+  
+  /*** Main Section ***/
+  
+  h2 {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	* {
+		box-sizing: border-box;
+	  }
+	  
+	  #navigation {
+		background-color: #81adbd;
+	  }
+	  
+	  body {
+		background-color: coral;
+		font-family: 'Times New Roman', Times, serif;
+	  }
+	  
+	  /** HEADER **/
+	  nav {
+		position: relative;
+	  }
+	  
+	  .navbar-brand {
+		font-size: 1.5em;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-shadow: 1px #222;
+		margin-bottom: 0px;
+		margin-top: 0px;
+	  }
+	  
+	  .navbar-nav hr {
+		width: 95%;
+	  }
+	  
+	  .navbar-nav .nav-item {
+		text-align: center;
+	  }
+	  
+	  .navbar-nav {
+		margin-top: 10px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	  }
+	  
+	  .navbar-brand a:hover, .navbar-brand a:focus {
+		text-decoration: none;
+	  }
+	  
+	  #navbarNavDropdown {
+		float: right
+	  }
+	  
+	  /*** Main Section ***/
+	  
+	  h2 body {
+		font-size: 16px;
+		font-family: 'Oxygen', sans-serif;
+	  }
+	  
+	  /** HEADER **/
+	  #header-nav {
+		background-color: #f0f34e;
+		border-radius: 0;
+		border: 0;
+	  }
+	  
+	  .navbar-brand {
+		padding-top: 25px;
+	  }
+	  
+	  .navbar-brand h1 { /* heading */
+		font-family: 'Lora', serif;
+		font-size: 1.5em;
+		text-transform: uppercase;
+		font-weight: bold;
+		margin-top: 0;
+		margin-bottom: 0;
+		line-height: .75;
+		width: 100%;
+	  }
+	  .full-width{
+		width: 100%;
+	  }
+	  .navbar-brand a:hover, .navbar-brand a:focus {
+		text-decoration: none;
+	  }
+	  
+	  #nav-list {
+		margin-top: 10px;
+	  }
+	  #nav-list a {
+		color: rgb(245, 6, 93);
+		text-align: center;
+	  }
+	  #nav-list a:hover {
+		background: #E7E7E7;
+	  }
+	  #nav-list a span {
+		font-size: 1.8em;
+	  }
+	  
+	  .navbar-header button.navbar-toggle {
+		clear: both;
+		margin-top: -30px;
+	  }
+	  /* END HEADER */
+	  
+	  #menu-title{
+		font-size: 1.8em;
+		font-weight: bold;
+		margin-bottom: 30px;
+	  }
+	  #chicken-tile, #beef-tile, #sushi-tile{
+		padding: 15px;
+		position: relative;
+		align-self: center; 
+		margin-bottom: 30px;
+		border: 2px solid black;
+	  }
+	  
+	  #chicken-tile{
+		background-color: aquamarine;
+	  }
+	  #beef-tile{
+		background-color: violet;
+	  }
+	  #sushi-tile{
+		background-color: lightgoldenrodyellow;
+	  }
+	  
+	  div >h4{
+		font-weight: 700;
+		margin-bottom: 20px;
+	  }
+	  
+	  
+	  /********** Extra small devices only **********/
+	  @media (max-width: 767px) {
+		/* Header */
+		.navbar-brand {
+		  padding-top: 10px;
+		  height: 80px;
+		}
+		.navbar-brand h1 { /* Restaurant name */
+		  padding-top: 10px;
+		  font-size: 5vw; /* 1vw = 1% of viewport width */
+		}
+		#collapsable-nav a { /* Collapsed nav menu text */
+		  font-size: 1.2em;
+		}
+		#collapsable-nav a span { /* Collapsed nav menu glyph */
+		  font-size: 1em;
+		  margin-right: 5px;
+		}
+		/* End Header */
+	  
+	  }
+	  
+		padding-top: 10px;
+		padding-bottom: 15px;
+		text-align: center;
+		font-size: 1.5em;
+	  }
+	  
+	  #main-section {
+		padding-top: 25px;
+		text-align: justify;
+		height: 1000px;
+	  }
+	  
+	  /****** Large Devices Only ******/
+	  
+	  @media (min-width: 992px) {
+		.navbar-brand {
+		  font-size: 2.0em;
+		  padding-left: 25px;
+		}
+	  
+	  }
+	text-align: center;
+	font-size: 1.5em;
+  }
+  
+  #main-section {
+	padding-top: 25px;
+	text-align: justify;
+	height: 1000px;
+  }
+  
+  
+  /****** Large Devices Only ******/
+  
+  @media (min-width: 992px) {
+	.navbar-brand {
+	  font-size: 2.0em;
+	  padding-left: 25px;
+	}
+  
+  }
